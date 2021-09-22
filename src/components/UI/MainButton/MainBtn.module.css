@@ -1,0 +1,9 @@
+.MainBtn {
+  background: transparent;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid teal;
+  margin: 5px auto;
+  max-width: 100px;
+  cursor: pointer;
+}

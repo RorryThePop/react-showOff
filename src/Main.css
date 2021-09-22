@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+a {
+  padding: 10px;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+
+}
+a:hover {
+ color: red;
+  transition: 1s;
+}
+#root {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+}
+.output {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 10px auto 0;
+  border: 1px solid teal;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.remove-btn {
+  margin-right: 0.5rem;
+}
+
+.post-enter {
+  transform: translateX(100%);
+}
+.post-enter-active {
+  transform: translateX(0px);
+  transition: all 500ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  transform: translateX(-100%);
+  transition: all 500ms ease-in;
+}
+.page__wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.page {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid teal;
+  margin: 2px;
+}
+.page__current {
+  border: 2px solid orange;
+  font-weight: bold;
+}
+.navbar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background-color: lightblue;
+}
+.navbar__links{
+  margin-left: auto;
+}
